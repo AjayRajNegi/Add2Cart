@@ -7,8 +7,8 @@ const Footer = () => {
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <h1 className="text-[30px] md:text-[50px] font-extrabold text-red-500">
-            REDSAN
+          <h1 className="text-[30px] md:text-[50px] font-extrabold text-[#8fc94e]">
+            ADD2CART
           </h1>
           <p></p>
           <div className="footer-social-icons flex">
@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
       <hr></hr>
       <p className="footer-copyright">
-        Copyright 2025 @ RedSan- All Rights Reserved.
+        Copyright 2025 @ Add2Cart- All Rights Reserved.
       </p>
     </div>
   );

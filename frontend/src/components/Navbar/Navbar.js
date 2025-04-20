@@ -9,9 +9,11 @@ function Navbar({ setShowLogin }) {
     <div className="sticky bg-white z-[200] top-0 flex flex-col md:flex-row justify-between items-center py-5 md:px-8 lg:px-12">
       <div>
         <Link to="/">
-          <p className="text-[30px] md:text-[50px] font-extrabold text-red-500">
-            REDSAN
-          </p>
+          <img
+            src="/add2cart.png"
+            className="w-[90px] sm:w-[120px] md:w-[150px] mb-2 md:mb-0"
+          />
+          {/* <p className="text-[30px] md:text-[50px] font-extrabold text-green-500"></p> */}
         </Link>
       </div>
 
@@ -45,7 +47,7 @@ function Navbar({ setShowLogin }) {
             <Link to="/cart">
               <img src={assets.basket_icon} alt="Cart" />
             </Link>
-            <div className="absolute top-[-8px] right-[-8px] w-[10px] h-[10px] bg-red-500 rounded-full"></div>
+            <div className="absolute top-[-8px] right-[-8px] w-[10px] h-[10px] bg-[#8fc94e] rounded-full"></div>
           </div>
 
           {/* <button

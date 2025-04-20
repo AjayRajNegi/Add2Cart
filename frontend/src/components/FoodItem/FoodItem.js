@@ -50,10 +50,10 @@ const FoodItem = ({ id, name, price, description, image, offers }) => {
         </div>
         <p className="text-gray-500 text-xs md:text-sm">{description}</p>
         <div className="flex items-center justify-between mt-2">
-          <p className="text-tomato text-xl text-red-500 font-medium">
+          <p className="text-tomato text-xl text-[#8fc94e] font-medium">
             ₹{price}
           </p>
-          {offers > 0 && <p className="text-green-500">{offers}% OFF</p>}
+          {offers > 0 && <p className="text-[#8fc94e]">{offers}% OFF</p>}
         </div>
       </div>
     </div>
