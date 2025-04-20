@@ -15,7 +15,7 @@ router.post("/send-sms", (req, res) => {
   ) {
     try {
       const message = await client.messages.create({
-        body: `Hi ${data.name}, your order:\n ${data.items} is ready,\n location is ${data.location} Complete your Payment of ${data.bill} now\n and send a screenshot to confirm, FUCK YOU `,
+        body: `Hi ${data.name}, your order:\n ${data.items} is ready,\n Location is ${data.location}. The bill generated is ${data.bill}`,
         from: "whatsapp:+14155238886",
         to: "whatsapp:+918433038283",
       });
