@@ -52,7 +52,8 @@ const InputForm = ({ selectedItems, bill }) => {
         date: date,
         time: time,
       });
-      fetch("http://localhost:5000/api/send-sms", {
+
+      fetch("https://add2cart.onrender.com/api/send-sms", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
